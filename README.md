@@ -8,18 +8,18 @@ Sentiment Analysis is process of computationally identifying and categorizing op
 
 **Fine-Tuned on :** **`SST-2`**
 
-## [To View Deployed Demo on Streamlit](https://share.streamlit.io/srajanseth84/all-ml-projects-streamlit/main/app.py)
+## [View Deployed Demo on Streamlit](https://share.streamlit.io/srajanseth84/all-ml-projects-streamlit/main/app.py)
 - Just open above link and select Sentiment Classification
 
 
 
 ## Demo
------
+
 
 ![](extras/)
 
 ### A Few Examples
--------------------
+
 * The beautiful ruins of the ancient city of Persepolis (Iran) with the style of Van Gogh (The Starry Night) 
   <img src="images/">
 * The tomb of Cyrus the great in Pasargadae with the style of a Ceramic Kashi from Ispahan 
@@ -30,7 +30,7 @@ Sentiment Analysis is process of computationally identifying and categorizing op
 
 
 ## Run Locally
-------
+
 
 * Clone the project
 
@@ -69,7 +69,6 @@ Sentiment Analysis is process of computationally identifying and categorizing op
 ```
 
 ## BERT MODEL DESCRIPTION
-----
 
 BERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion. This means it was pretrained on the raw texts only, with no humans labelling them in any way (which is why it can use lots of publicly available data) with an automatic process to generate inputs and labels from those texts. More precisely, it was pretrained with two objectives:
 
@@ -82,11 +81,16 @@ This way, the model learns an inner representation of the English language that 
 
 
 ## Dependencies
-----
+
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
 * [Hugging Face 🤗](https://huggingface.co/)
 * [Streamlit](https://github.com/streamlit/streamlit)
 * [Hugging Face BERT](https://huggingface.co/bert-base-uncased)  
+
+## Tech Stack
+* **Front-End**: [Streamlit](https://github.com/streamlit/streamlit)
+* **Cloud**: [Streamlit Cloud](https://streamlit.io/cloud)
+* **DL-Framework**: [Hugging Face](https://huggingface.co/)
 
 
 ## Reference
