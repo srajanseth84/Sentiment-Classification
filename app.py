@@ -20,7 +20,7 @@ def query(payload):
 
 st.write("### Enter Sentence")
 input = st.text_input(" ")
-button = st.button("🧐")
+button = st.button("Find out🧐")
 
 if button and not input:
     st.warning("⚠️ Please INPUT a Sentence ⚠️")
