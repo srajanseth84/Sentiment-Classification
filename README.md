@@ -11,26 +11,11 @@ Sentiment Analysis is process of computationally identifying and categorizing op
 ## [View Deployed Demo on Streamlit](https://share.streamlit.io/srajanseth84/all-ml-projects-streamlit/main/app.py)
 - Just open above link and select Sentiment Classification
 
-
-
 ## Demo
 
-
-![](extras/)
-
-### A Few Examples
-
-* The beautiful ruins of the ancient city of Persepolis (Iran) with the style of Van Gogh (The Starry Night) 
-  <img src="images/">
-* The tomb of Cyrus the great in Pasargadae with the style of a Ceramic Kashi from Ispahan 
-  <img src="images/">
-* A scientific study of a turbulent fluid with the style of a abstract blue fluid painting
-  <img src = "images/">
-
-
+![](extras/sentiment.gif)
 
 ## Run Locally
-
 
 * Clone the project
 
@@ -78,8 +63,6 @@ BERT is a transformers model pretrained on a large corpus of English data in a s
 
 This way, the model learns an inner representation of the English language that can then be used to extract features useful for downstream tasks: if you have a dataset of labeled sentences for instance, you can train a standard classifier using the features produced by the BERT model as inputs.
 
-
-
 ## Dependencies
 
 * [Tensorflow](https://github.com/tensorflow/tensorflow)
@@ -91,7 +74,6 @@ This way, the model learns an inner representation of the English language that 
 * **Front-End**: [Streamlit](https://github.com/streamlit/streamlit)
 * **Cloud**: [Streamlit Cloud](https://streamlit.io/cloud)
 * **DL-Framework**: [Hugging Face](https://huggingface.co/)
-
 
 ## Reference
 
